@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[24,)" #mandatory
+credits="Thanks to all of you guys for your support!"
+authors="Geforce"
+
+[[mods]] #mandatory
+modId="poggers" #mandatory
+version="v0.0.1" #mandatory
+displayName="Poggers" #mandatory
+description='''
+This mod allows the rendering of emojis into Minecraft chat!
+''' #mandatory
+
+[[dependencies.poggers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[25,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.poggers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"
